@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Login via Facebook</title>
+		<title>Home</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +9,6 @@
 		<script src="<?php echo base_url('bootstrap/js/bootstrap.min.js');?>"></script>
 		<script language="JavaScript" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="<? echo base_url('styles.css');?>">
-		
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans+Condensed:300|Raleway' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body style="background-image: url(<?php echo base_url('images/basketballcourt3.jpg');?>">
@@ -29,9 +27,13 @@
 							
 							<?php echo form_open('login'); ?>
 								<br>
-								<button class="btn btn-lg btn-primary" value="facebook" name="connectWith" type="submit" style="background-color: #303030;">Connect with Facebook</button>
+								<button class="" value="facebook" name="connectWith" type="submit">
+									<img src="<?php echo base_url('images/loginwithfacebook.png'); ?>" class='img-resposive'>
+								</button>
 								<br>
-								<button class="btn btn-lg btn-primary" value="google" name="connectWith" type="submit" style="background-color: #303030;">Connect with Google</button>
+								<button class="" value="google" name="connectWith" type="submit">
+									<img src="<?php echo base_url('images/signinwithgoogle.png'); ?>" class='img-resposive'>
+								</button>
 							</form>
 							
 						</div>

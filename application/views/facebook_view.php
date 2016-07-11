@@ -16,7 +16,6 @@
 							echo "<p>Name : ".$name."</p>";
 							echo "<p>First Name : ".$firstName."</p>";
 							echo "<p>Last Name : ".$lastName."</p>";
-							echo "<p>Email : ".$email."</p>";
 							echo "<p>Gender : ".$gender."</p>";
 							echo "<p>Facebook URL : "."<a href=".$link." target='_blank'"."> https://www.facebook.com/".$id."</a></p>";
 						?>
