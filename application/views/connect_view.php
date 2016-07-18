@@ -21,9 +21,7 @@
 				<div class="row">
 					<div class="box01">
 						<div class="login-window">
-							<div id="header">
-								<center><h1>Login</h1></center>
-							</div>
+							
 							
 							<?php echo form_open('login'); ?>
 								<br>
