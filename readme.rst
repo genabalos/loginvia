@@ -70,6 +70,4 @@ The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
 
 
-####Lets a user send login to a website using Facebook and Google
-####When using codeigniter, save file in /wampstack/apache2/htdocs/loginvia
-####To run go to: localhost/loginvia"
+
